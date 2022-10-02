@@ -42,11 +42,19 @@ module.exports = {
                     options: {
                         presets: [
                             '@babel/preset-env',
-                            '@babel/preset-react'
+                            '@babel/preset-react',
+                            {
+                                'plugins': ['@babel/plugin-syntax-dynamic-import'] // dynamic import seems to have allowed map function on react
+                            }
                         ]
                     }
                 }
-            }
+            },
+            {
+                test: /\.css$/i,
+                include: path.resolve(__dirname, 'src'),
+                use: ['style-loader', 'css-loader'],
+            },
         ]
     },
     plugins: [
