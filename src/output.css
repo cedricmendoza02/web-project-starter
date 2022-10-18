@@ -594,52 +594,12 @@ video {
   margin-top: 2.5rem;
 }
 
-.grid {
-  display: grid;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.max-h-full {
-  max-height: 100%;
-}
-
-.min-h-screen {
-  min-height: 100vh;
-}
-
-.min-h-\[50vw\] {
-  min-height: 50vw;
-}
-
-.min-h-\[50vh\] {
-  min-height: 50vh;
-}
-
 .min-h-\[90vh\] {
   min-height: 90vh;
 }
 
 .max-w-7xl {
   max-width: 80rem;
-}
-
-.max-w-xl {
-  max-width: 36rem;
-}
-
-.max-w-5xl {
-  max-width: 64rem;
-}
-
-.grid-cols-\[300px_minmax\(500px\2c _1fr\)_100px\] {
-  grid-template-columns: 300px minmax(500px, 1fr) 100px;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .p-4 {
@@ -651,10 +611,8 @@ video {
   line-height: 2rem;
 }
 
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.uppercase {
+  text-transform: uppercase;
 }
 
 .shadow-xl {
