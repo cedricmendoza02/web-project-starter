@@ -6,6 +6,7 @@ import {
     Route
   } from "react-router-dom";
 import { Root, About } from "./components"
+import './input.css'
 
 const router = createBrowserRouter([
     {
